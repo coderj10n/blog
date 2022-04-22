@@ -6,7 +6,7 @@ export const SITE_DESCRIPTION = "개발하며 겪는 시행착오를 기록합�
 export const DEFAULT_OG_IMAGE =
 	'https://user-images.githubusercontent.com/6764957/147861359-3ad9438f-41d1-47c8-aa05-95c7d18497f0.png';
 export const MY_TWITTER_HANDLE = 'coderj10n';
-//export const MY_YOUTUBE = 'https://youtube.com/user_name';
+export const MY_YOUTUBE = 'https://youtube.com/';
 
 // dont forget process.env.GH_TOKEN
 // if supplied, raises rate limit from 60 to 5000

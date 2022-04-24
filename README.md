@@ -1,2 +1,2 @@
-## Blog
-Powered by https://github.com/sw-yx/swyxkit
+# Blog
+This blog is based on the [swyxkit](https://github.com/sw-yx/swyxkit) template.

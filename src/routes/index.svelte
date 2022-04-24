@@ -11,7 +11,6 @@
 </script>
 
 <script>
-	import Newsletter from '../components/Newsletter.svelte';
 	import FeatureCard from '../components/FeatureCard.svelte';
 </script>
 
@@ -38,22 +37,20 @@
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
 			<h1 class="mb-3 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
-				This is
+				Welcome to 
 
 				<span
 					class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500"
 				>
 					<span class="relative skew-y-3 text-yellow-400">{SITE_TITLE}</span>
 				</span>
-				!
+				Blog!
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				An opinionated blog starter for <span class="font-semibold"
-					>SvelteKit + Tailwind + Netlify.</span
-				> Refreshed for 2022!
+				한국에서 일하는 백엔드 개발자, j10n의 기술 블로그입니다. 개발하면서 겪은 시행착오를 기록합니다.
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
-				<a href={REPO_URL}>View source here!</a>
+				<a href={REPO_URL}>GitHub 바로가기</a>
 			</p>
 		</div>
 		<!-- <div
@@ -66,13 +63,13 @@
 			Featured Posts
 		</h3>
 		<div class="flex flex-col gap-6 md:flex-row">
-			<FeatureCard title="Welcome to swyxkit 2022!" href="/welcome" stringData="Jan 2022" />
+			<FeatureCard title="GitHub Issue를 CMS로 활용하기" href="/githubcms" stringData="April 2022" />
 			<FeatureCard
-				title="Moving to a GitHub CMS"
-				href="/moving-to-a-github-cms"
-				stringData="Jan 2022"
+				title="MA에서 MSA로 전환하기"
+				href="/msa"
+				stringData="April 2022"
 			/>
-			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
+			<FeatureCard title="RESTful API 설계 Tip" href="/react" stringData="April 2022" />
 		</div>
 		<a
 			class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
@@ -92,5 +89,4 @@
 			></a
 		>
 	</section>
-	<Newsletter />
 </div>

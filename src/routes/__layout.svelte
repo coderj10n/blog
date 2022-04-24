@@ -29,7 +29,6 @@
 		<div class="flex flex-col space-y-4">
 			<a class="text-gray-500 transition hover:text-gray-300" href="/">Home</a>
 			<a class="text-gray-500 transition hover:text-gray-300" href="/about">About</a>
-			<a class="text-gray-500 transition hover:text-gray-300" href="/#newsletter">Newsletter</a>
 			<a class="text-gray-500 transition hover:text-gray-300" href="/api/rss.xml" rel="external">
 				RSS
 			</a>
@@ -39,31 +38,10 @@
 				class="text-gray-500 transition hover:text-gray-300"
 				target="_blank"
 				rel="noopener noreferrer"
-				href={'https://twitter.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}
-			>
-				Twitter
-			</a>
-			<a
-				class="text-gray-500 transition hover:text-gray-300"
-				target="_blank"
-				rel="noopener noreferrer"
 				href={REPO_URL}
 			>
 				GitHub
 			</a>
-			<a
-				class="text-gray-500 transition hover:text-gray-300"
-				target="_blank"
-				rel="noopener noreferrer"
-				href={MY_YOUTUBE}
-			>
-				YouTube
-			</a>
 		</div>
 	</div>
-	<p class="prose px-4 dark:prose-invert sm:px-8">
-		This blog is based on the
-		<a href="https://swyxkit.netlify.app/">swyxkit</a>
-		template.
-	</p>
 </footer>

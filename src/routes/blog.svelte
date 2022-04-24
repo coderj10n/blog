@@ -59,8 +59,7 @@
 		Blog
 	</h1>
 	<p class="mb-4 text-gray-600 dark:text-gray-400">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sunt reprehenderit alias rerum
-		dolor impedit. In total, I've written {items.length} articles on my blog. Use the search below to
+		In total, I've written {items.length} articles on my blog. Use the search below to
 		filter by title.
 	</p>
 	<div class="relative mb-4 w-full">

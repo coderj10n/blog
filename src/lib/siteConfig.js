@@ -1,4 +1,5 @@
 export const SITE_URL = 'https://coderj10n.netlify.app';
+export const APPROVED_POSTERS_GH_USERNAME = ['coderj10n'];
 export const GH_USER_REPO = 'coderj10n/blog'; // used for pulling github issues and offering comments
 export const REPO_URL = 'https://github.com/' + GH_USER_REPO;
 export const SITE_TITLE = 'Coder j10n';

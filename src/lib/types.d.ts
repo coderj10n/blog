@@ -5,6 +5,7 @@ export type ContentItem = {
 		[key: string]: string;
 	};
 	title: string;
+	writer: string;
 	subtitle: string;
 	description: string;
 	category: string;

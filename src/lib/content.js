@@ -169,6 +169,7 @@ function parseIssue(issue) {
 		content,
 		frontmatter: data,
 		title,
+		writer: issue.user.login,
 		subtitle: data.subtitle,
 		description,
 		category: data.category,

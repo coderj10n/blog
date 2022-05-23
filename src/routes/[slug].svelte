@@ -35,7 +35,7 @@
 
 <script>
 	import 'prism-themes/themes/prism-shades-of-purple.min.css';
-	import Newsletter from '../components/Newsletter.svelte';
+	// import Newsletter from '../components/Newsletter.svelte';
 	import Reactions from '../components/Reactions.svelte';
 
 	/** @type {import('$lib/types').ContentItem} */
@@ -89,7 +89,7 @@
 		{@html json.content}
 	</div>
 </article>
-<div class="mx-auto max-w-2xl">
+<div class="mx-auto w-full max-w-2xl">
 	<div class="prose mb-12 border-t border-b border-blue-800 p-4 dark:prose-invert">
 		{#if json.ghMetadata.reactions.total_count > 0}
 			Reactions: <Reactions
@@ -105,5 +105,5 @@
 		<Comments ghMetadata={json.ghMetadata} />
 	</div>
 
-	<Newsletter />
+	<!-- <Newsletter /> -->
 </div>

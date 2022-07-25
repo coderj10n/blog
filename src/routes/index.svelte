@@ -63,13 +63,13 @@
 			Featured Posts
 		</h3>
 		<div class="flex flex-col gap-6 md:flex-row">
-			<FeatureCard title="GitHub Issue를 CMS로 활용하기" href="/githubcms" stringData="April 2022" />
+			<FeatureCard title="GitHub Issue를 CMS로 활용하기" href="/github-issue-cms" stringData="April 2022" />
 			<FeatureCard
-				title="MA에서 MSA로 전환하기"
-				href="/msa"
+				title="오픈소스에 기여하기"
+				href="/(open-source)"
 				stringData="April 2022"
 			/>
-			<FeatureCard title="RESTful API 설계 Tip" href="/react" stringData="April 2022" />
+			<FeatureCard title="EventDriven 설계 Tip" href="/event-driven" stringData="April 2022" />
 		</div>
 		<a
 			class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
